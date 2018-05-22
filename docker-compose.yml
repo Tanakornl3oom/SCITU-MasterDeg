@@ -16,7 +16,7 @@ services:
   nginx:
       image: nginx:latest
       ports:
-        - "80:8000"
+        - "8000:8000"
       volumes:
         - /tmp:/tmp
         - ./nginx/:/etc/nginx/conf.d/
